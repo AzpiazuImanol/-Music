@@ -65,9 +65,13 @@ Aparecen La Vela Puerca, Peces Raros, Bastille, Eminem con playlist propia, y
 hasta una de reggae. El AC/DC de River que en el análisis de YouTube parecía una
 anomalía suelta **no era una anomalía**: era la punta de un modo entero.
 
-El prefijo "ELI" en cuatro playlists sugiere que son compartidas con alguien.
-Vale preguntarle, porque cambia cómo interpretarlas: puede que parte de eso no
-sea gusto suyo.
+**"ELI" es él**: sale de "El Ima". Así que las cuatro playlists con ese prefijo,
+incluidas las de rock con 375 temas entre las dos, son gusto suyo puro y se
+pueden usar sin descuento.
+
+**La excepción es 💙 LulèEli, de 207 temas, que comparte con su novia.** Esa sí
+es de a dos, así que un tema de ahí no prueba que le guste a él. Usarla como
+señal débil, o directamente excluirla cuando se busque su gusto individual.
 
 ### 2. Los temas guardados son una cápsula del tiempo, no gusto actual
 
@@ -152,10 +156,8 @@ _(sin datos todavía; se llenan con veredictos en descubrimiento.md)_
 
 ## Lo que falta para completar esto
 
-1. **Preguntarle por las playlists "ELI"**, que son cuatro y de las más grandes.
-   Si son compartidas, parte de ese contenido no es gusto suyo.
-2. Preguntarle vetos y contextos. Eso la data no lo dice.
-3. **Ojo con un límite nuevo de la API:** desde febrero de 2026 el objeto
+1. Preguntarle vetos y contextos. Eso la data no lo dice.
+2. **Ojo con un límite nuevo de la API:** desde febrero de 2026 el objeto
    artista ya no trae `genres`, `popularity` ni `followers`. Spotify no aporta
    metadata de género, así que la clasificación por estilo hay que sacarla de
    otra fuente. Ver [api-spotify.md](api-spotify.md).
