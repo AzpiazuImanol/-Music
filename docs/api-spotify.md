@@ -44,9 +44,20 @@ enterarse de **sus** artistas, no de todos.
 scope `playlist-modify-private`, que el script hoy **no pide a propósito**: es
 solo lectura. Cuando se decida armar playlists de verdad, hay que agregarlo.
 
-**Campos eliminados de las respuestas:** `available_markets`, `popularity`,
-`followers`. Nada de eso lo usamos hoy, pero conviene no construir encima de
-`popularity`, que sería lo natural para rankear.
+**Campos eliminados de las respuestas.** Verificado contra la data real del
+27-ago-2026: un objeto artista hoy trae solo `external_urls`, `href`, `id`,
+`images`, `name`, `type` y `uri`. Desaparecieron `genres`, `popularity`,
+`followers` y `available_markets`.
+
+Lo grave de esa lista es **`genres`**: Spotify ya no dice a qué género pertenece
+un artista. Cualquier clasificación por estilo en este repo tiene que salir de
+otra fuente (MusicBrainz, Last.fm, o a mano). Y no se puede rankear por
+`popularity`, que era lo natural.
+
+**Las playlists seguidas devuelven 403.** Confirmado en la corrida: de sus 42
+playlists, las 17 que sigue pero no son suyas dan 403 al pedir el contenido. El
+script lo maneja y sigue de largo, pero significa que **solo se puede leer el
+contenido de las playlists propias**.
 
 ## Lo que no cambia
 

@@ -24,9 +24,8 @@ el error por defecto, porque en la playlist de 61 sets no había ni un single.
 singles por construcción, así que la ausencia no probaba nada sobre su gusto.
 Media mitad de su consumo estaba fuera del archivo que se estaba mirando.
 
-Vale como advertencia general para este repo: mientras `data/spotify/` esté
-vacío, todo lo que se escriba acá describe **la mitad YouTube** de lo que
-escucha, no el total.
+La mitad Spotify entró el 27-ago-2026 y confirmó que la corrección era
+necesaria: ver "Lo que reveló Spotify" más abajo.
 
 ### Lo que sí sigue en pie sobre la mitad YouTube
 
@@ -43,6 +42,68 @@ por el sello de la serie y no por el nombre del DJ.
 
 Consecuencia: el radar tiene que seguir **canales y series**, no solo artistas.
 Un set nuevo de Cercle le interesa incluso de alguien que no conoce.
+
+## Lo que reveló Spotify (27-ago-2026)
+
+42 playlists, 765 temas guardados, tres ventanas de top. Cuatro cosas que la
+playlist de YouTube no dejaba ver, y una de ellas obliga a filtrar los datos.
+
+### 1. Hay una dimensión rock que en YouTube no existe
+
+Sus playlists propias más grandes no son electrónicas:
+
+| Temas | Playlist |
+|---|---|
+| 293 | 𝐄𝐋𝐈 𝐓𝐞𝐜𝐡 |
+| 207 | 💙 LulèEli |
+| **194** | **ELI Rock 🎸** |
+| **181** | **ELI Rock Nacional** |
+| 76 | MANIJEANDING |
+
+Rock y rock nacional argentino suman 375 temas, más que la playlist de tech.
+Aparecen La Vela Puerca, Peces Raros, Bastille, Eminem con playlist propia, y
+hasta una de reggae. El AC/DC de River que en el análisis de YouTube parecía una
+anomalía suelta **no era una anomalía**: era la punta de un modo entero.
+
+El prefijo "ELI" en cuatro playlists sugiere que son compartidas con alguien.
+Vale preguntarle, porque cambia cómo interpretarlas: puede que parte de eso no
+sea gusto suyo.
+
+### 2. Los temas guardados son una cápsula del tiempo, no gusto actual
+
+De los 765 guardados, **502 son de la década de 2010**. Y los artistas más
+guardados son Robin Schulz (17), Tiësto (15), David Guetta (13), Kygo (13),
+Martin Garrix (12), más Jason Derulo, Sigala, Bebe Rexha, The Chainsmokers,
+Marshmello, Avicii. Eso es EDM de radio de 2014 a 2018.
+
+**No usar los guardados para recomendar.** Describen a quién escuchaba hace
+diez años. Para el gusto de hoy sirven `top_tracks_*` y las playlists activas.
+
+### 3. Hacia dónde se está moviendo
+
+Comparando ventanas temporales, el largo plazo es el núcleo melódico que ya
+conocíamos (RÜFÜS DU SOL cuatro veces en el top 10, Monolink, CamelPhat), pero
+el corto plazo trae nombres nuevos: **Fred again.., Parcels, ANOTR, Maribou
+State, Sammy Virji, Skepta, Swedish House Mafia**.
+
+Sammy Virji y Skepta son UK garage y grime, no melodic house. **Es la primera
+señal de que se está corriendo hacia el sonido británico**, y llega justo con la
+mudanza a Cambridge. Vale la pena empujar por ahí.
+
+### 4. El filtro obligatorio: música funcional
+
+8 de sus 50 artistas top de corto y mediano plazo son perfiles de música
+funcional para dormir, concentrarse o bajar estrés: Miracle Tones, White Noise
+Radiance, Warmth of Muba, Nebula Somni, Moonlace, Foreglow, Dawnveil, Nova
+Issue, Noctivelle, Domi Nova, Phillipe Cloé. En el largo plazo son solo 2 de 50,
+así que **es un hábito reciente y creciente**.
+
+Se corresponde con playlists suyas como *Sleepy house music*, *Alpha Waves*,
+*🧠 Lower Stress*, *8D* y *Endurance Training*.
+
+**Esto envenena cualquier ranking por reproducciones**, porque son horas de
+reproducción con la atención en otra parte. **Filtrar ese cluster antes de sacar
+conclusiones o recomendar.** No es gusto, es utilidad.
 
 ## Los cuatro modos
 
@@ -91,7 +152,10 @@ _(sin datos todavía; se llenan con veredictos en descubrimiento.md)_
 
 ## Lo que falta para completar esto
 
-1. **Correr `scripts/sync_spotify.py`.** Es la pieza que falta, no un extra:
-   hoy este perfil describe solo la mitad YouTube. Bloqueado en que él cree la
-   app en developer.spotify.com.
+1. **Preguntarle por las playlists "ELI"**, que son cuatro y de las más grandes.
+   Si son compartidas, parte de ese contenido no es gusto suyo.
 2. Preguntarle vetos y contextos. Eso la data no lo dice.
+3. **Ojo con un límite nuevo de la API:** desde febrero de 2026 el objeto
+   artista ya no trae `genres`, `popularity` ni `followers`. Spotify no aporta
+   metadata de género, así que la clasificación por estilo hay que sacarla de
+   otra fuente. Ver [api-spotify.md](api-spotify.md).

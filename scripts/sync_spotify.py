@@ -80,9 +80,15 @@ def authorize(cid: str, secret: str) -> dict:
         {"client_id": cid, "response_type": "code", "redirect_uri": REDIRECT, "scope": SCOPES, "state": state}
     )
     print("Abriendo el navegador para autorizar...")
+    print("Si no se abre solo, pegá esta URL:")
+    print(url)
     webbrowser.open(url)
+    import time
+    limite = time.monotonic() + 180
     while "code" not in got and "error" not in got:
-        pass
+        if time.monotonic() > limite:
+            raise SystemExit("Pasaron 3 minutos sin autorizacion. Volvé a correrlo.")
+        time.sleep(0.25)
     if got.get("state") != state:
         raise SystemExit("State no coincide. Abortado por seguridad.")
     if "error" in got:
