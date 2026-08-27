@@ -42,7 +42,7 @@ septiembre prácticamente muerta. **Todo se juega entre el viernes 28 y el lunes
 
 | # | Qué | Cuándo | Dónde | Precio | Link |
 |---|---|---|---|---|---|
-| 1 | **Luttrell + Volen Sentir + Jesabel** | dom 30, 15:00 a 22:00 | Riverside East, 5 Thornton St, E20 2AD | desde **£22** | [Dice](https://dice.fm/event/k6d3a8-eric-luttrell-summer-of-love-tour-2026-london-30th-aug-riverside-east-london-tickets) · [RA](https://ra.co/events/2418594) |
+| 1 | **Luttrell + Volen Sentir + Jesabel** | dom 30, 15:00 a 22:00 | Riverside East, Olympic Park, Stratford | desde **£22** | [Dice](https://dice.fm/event/k6d3a8-eric-luttrell-summer-of-love-tour-2026-london-30th-aug-riverside-east-london-tickets) · [RA](https://ra.co/events/2418594) |
 | 2 | **Notting Hill Carnival** | dom 30 y lun 31, 12:00 a 19:00 | Notting Hill, 36 sound systems | **gratis** | [nhcarnival.org](https://nhcarnival.org/) |
 | 3 | **Joe Goddard [All Night Long]** | vie 28, 18:00 a 03:00 | Night Tales, 14 Bohemia Pl, E8 1DU | desde ~£5 | [RA](https://ra.co/events/2443593) |
 | 4 | **Matthias Tanzmann & Friends** | sáb 29, 23:00 a 05:00 | E1, Wapping (1.600) | £25 a £40 (inferido) | RA |
@@ -58,9 +58,28 @@ antes de comprar.
 
 **Por qué Luttrell es el pick:** es su dieta exacta. Luttrell es de Anjunadeep,
 que ya consume, y Volen Sentir es All Day I Dream y Lost & Found, la línea de
-Ben Böhmer, Lane 8 y Monolink. Day party al aire libre junto al canal, sets
-largos, sala de 1.400: un Cercle de bolsillo. Termina 22:00, tube normal de
-vuelta, y no quema el lunes de carnaval. A £22 es regalado.
+Ben Böhmer, Lane 8 y Monolink. Day party de tarde, sets largos, termina 22:00 y
+no quema el lunes de carnaval. A £22 es regalado.
+
+### Qué es Riverside East, verificado el 27-ago-2026
+
+**No es un galpón ni un warehouse.** Es un bar y restaurante con terraza en
+altura, patio y café, dentro del **Queen Elizabeth Olympic Park en Stratford**,
+5 Thornton Street, E20 2AD. Sobre el agua del parque, con vistas al este de
+Londres. Espacios: The Yard, The Café y The Terrace. Tiene hasta una cancha de
+cricket indoor.
+
+**No es Hackney Wick**, aunque queda cerca. Es Stratford, a 800 metros de
+Stratford station, que es de las estaciones mejor conectadas de Londres:
+Elizabeth line, Central, Jubilee, Overground y DLR. La vuelta al centro son unos
+10 minutos y no depende de Night Tube porque termina a las 22:00.
+
+**Discrepancia de capacidad a tener en cuenta:** RA declara 1.400, pero los
+materiales de alquiler del propio local hablan de hasta 1.000 personas para
+tomar el lugar entero, y de 225 de pie para la terraza y el bar. O sea que el
+número de RA probablemente esté inflado, y el evento seguramente use una parte
+del sitio y no todo. Eso relativiza el riesgo de "sala vacía": 215 anotados en
+RA contra un aforo real más chico es bastante menos alarmante.
 
 **El plan armado:** viernes 28 Joe Goddard, domingo 30 Luttrell, lunes 31
 carnaval de día. Tres formatos distintos, menos de £60 por cabeza, y ninguna
