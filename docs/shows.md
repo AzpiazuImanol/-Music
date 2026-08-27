@@ -40,14 +40,21 @@ septiembre prácticamente muerta. **Todo se juega entre el viernes 28 y el lunes
 
 ### Ranked
 
-| # | Qué | Cuándo | Dónde | Precio | Estado |
+| # | Qué | Cuándo | Dónde | Precio | Link |
 |---|---|---|---|---|---|
-| 1 | **Luttrell + Volen Sentir** | dom 30, 15:00 a 22:00 | Riverside East, Hackney Wick (1.400) | desde **£22** | quedan |
-| 2 | **Notting Hill Carnival** | dom 30 y lun 31, 12:00 a 19:00 | Notting Hill, 36 sound systems | **gratis** | libre |
-| 3 | **Joe Goddard [All Night Long]** | vie 28, 18:00 a 03:00 | Night Tales, Hackney Central (700) | desde **£5** + tandas | quedan |
-| 4 | **Matthias Tanzmann & Friends** | sáb 29, 23:00 a 05:00 | E1, Wapping (1.600) | £25 a £40 (inferido) | quedan |
-| 5 | **Paco Osuna** | vie 28, 22:00 a 05:00 | KOKO, Camden (1.500) | £30 a £40 (inferido) | 3ra fecha tras 2 sold out |
-| 6 | **BLOND:ISH / ABRACADABRA** | dom 30, 15:00 a 22:00 | The Cause, Canning Town | £15 a £169 | quedan |
+| 1 | **Luttrell + Volen Sentir + Jesabel** | dom 30, 15:00 a 22:00 | Riverside East, 5 Thornton St, E20 2AD | desde **£22** | [Dice](https://dice.fm/event/k6d3a8-eric-luttrell-summer-of-love-tour-2026-london-30th-aug-riverside-east-london-tickets) · [RA](https://ra.co/events/2418594) |
+| 2 | **Notting Hill Carnival** | dom 30 y lun 31, 12:00 a 19:00 | Notting Hill, 36 sound systems | **gratis** | [nhcarnival.org](https://nhcarnival.org/) |
+| 3 | **Joe Goddard [All Night Long]** | vie 28, 18:00 a 03:00 | Night Tales, 14 Bohemia Pl, E8 1DU | desde ~£5 | [RA](https://ra.co/events/2443593) |
+| 4 | **Matthias Tanzmann & Friends** | sáb 29, 23:00 a 05:00 | E1, Wapping (1.600) | £25 a £40 (inferido) | RA |
+| 5 | **Paco Osuna** | vie 28, 22:00 a 05:00 | KOKO, Camden (1.500) | £30 a £40 (inferido) | [RA](https://ra.co/events/2449135) |
+| 6 | **BLOND:ISH / ABRACADABRA** | dom 30, 15:00 a 22:00 | The Cause, Canning Town | £15 a £169 | [RA](https://ra.co/events/2475420) |
+
+Horarios, sedes e IDs de evento verificados contra la API de RA el 27-ago-2026.
+
+**Cuidado con los links googleados.** Buscar "Joe Goddard Night Tales" devuelve
+`ra.co/events/2041023`, que es la misma fiesta pero **de enero de 2025**. El
+evento de este viernes es el `2443593`. Verificar siempre la fecha en la página
+antes de comprar.
 
 **Por qué Luttrell es el pick:** es su dieta exacta. Luttrell es de Anjunadeep,
 que ya consume, y Volen Sentir es All Day I Dream y Lost & Found, la línea de
