@@ -36,7 +36,7 @@ Amoroso), el más largo 3h27 (Tiësto en Gelredome, 2003). 53 de 61 pasan la hor
 Datos crudos en `data/spotify/`. Todavía vacío: falta crear la app en
 developer.spotify.com y correr `scripts/sync_spotify.py`.
 
-Hipótesis a verificar cuando entre la data: Spotify va a mostrar un consumo
-distinto, más de tema suelto y de playlist algorítmica, porque **el set largo lo
-hace en YouTube**. Si es así, Spotify no sirve para leer su gusto de fondo,
-sirve para leer qué escucha cuando no puede poner un set.
+Él lo describe así: **los temas sueltos los escucha en Spotify y los sets en
+YouTube**, los dos con frecuencia y con tendencia hacia YouTube. Así que esto no
+es una fuente secundaria: es la mitad del consumo que hoy no está en el repo, y
+mientras siga vacía el perfil de gusto está incompleto por definición.

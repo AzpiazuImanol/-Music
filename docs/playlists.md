@@ -2,17 +2,17 @@
 
 Objetivo: armarle playlists a partir del perfil de gusto.
 
-## El problema de formato
+## Dos productos, no uno
 
-Su consumo real son sets de 90 minutos, no listas de temas. Una playlist de
-Spotify de 40 canciones no reemplaza eso. Entonces hay dos productos distintos y
-conviene no mezclarlos:
+Escucha en dos modos con plataforma propia cada uno: **temas sueltos en Spotify,
+sets en YouTube**. Entonces hay dos productos distintos y conviene no mezclarlos:
 
-- **Colas de sets.** Una lista de sets de YouTube ordenados para un contexto
-  (cocinar, trabajar, el tren a Londres). Es lo más cerca de lo que ya hace.
-- **Playlists de temas de Spotify.** Sirven para lo que el set no cubre:
-  descubrir un artista nuevo, o escuchar cuando no puede poner algo de 90
-  minutos.
+- **Colas de sets, en YouTube.** Una lista de sets ordenados para un contexto
+  (cocinar, trabajar, el tren a Londres). Es el modo dominante.
+- **Playlists de temas, en Spotify.** Para cuando no puede poner algo de 90
+  minutos, y para descubrir artistas nuevos tema por tema.
+
+Ninguno reemplaza al otro. Antes de armar algo, definir para cuál de los dos es.
 
 ## Estado
 

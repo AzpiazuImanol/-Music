@@ -4,14 +4,35 @@ Primera versión, 24-ago-2026, derivada de la playlist de 61 sets de YouTube.
 Falta cruzarla con Spotify y con una entrevista. Todo lo de acá es inferido de
 lo que escucha, no declarado por él.
 
-## El dato que ordena todo
+## El dato que ordena todo: dos canales, no uno
 
-**El formato es la sesión larga, no la canción.** 53 de los 61 sets pasan la
-hora, la mediana es de 96 minutos y el total son 98h43. No hay un solo single
-en la playlist.
+**Declarado por él el 27-ago-2026**, y esto pisa cualquier inferencia:
 
-Consecuencia operativa: **recomendarle temas sueltos es el error por defecto.**
-La unidad de recomendación es el set, el mix o el álbum continuo.
+- **Temas sueltos: Spotify.**
+- **Sets: YouTube.**
+- Usa los dos con frecuencia, **con tendencia hacia YouTube**.
+
+O sea que no hay un formato correcto y otro incorrecto. Hay dos modos de escucha
+con plataforma propia cada uno, y toda recomendación tiene que declarar a cuál
+de los dos apunta. Un set va con link de YouTube. Un tema va a Spotify.
+
+### El error que esto corrige
+
+La primera versión de este archivo concluía que recomendarle temas sueltos era
+el error por defecto, porque en la playlist de 61 sets no había ni un single.
+**Eso estaba mal por cómo se sacó la muestra:** una playlist de sets no contiene
+singles por construcción, así que la ausencia no probaba nada sobre su gusto.
+Media mitad de su consumo estaba fuera del archivo que se estaba mirando.
+
+Vale como advertencia general para este repo: mientras `data/spotify/` esté
+vacío, todo lo que se escriba acá describe **la mitad YouTube** de lo que
+escucha, no el total.
+
+### Lo que sí sigue en pie sobre la mitad YouTube
+
+Los sets que consume ahí son largos de verdad: 53 de 61 pasan la hora, mediana
+de 96 minutos, 98h43 en total. Cuando la recomendación es un set, **que sea un
+set completo**, no un extracto de diez minutos.
 
 ## El segundo dato, menos obvio
 
@@ -70,7 +91,7 @@ _(sin datos todavía; se llenan con veredictos en descubrimiento.md)_
 
 ## Lo que falta para completar esto
 
-1. Correr `scripts/sync_spotify.py` y cruzar con lo de arriba. Ojo que Spotify
-   probablemente muestre un consumo distinto, más de tema suelto, porque el set
-   largo lo hace en YouTube.
+1. **Correr `scripts/sync_spotify.py`.** Es la pieza que falta, no un extra:
+   hoy este perfil describe solo la mitad YouTube. Bloqueado en que él cree la
+   app en developer.spotify.com.
 2. Preguntarle vetos y contextos. Eso la data no lo dice.

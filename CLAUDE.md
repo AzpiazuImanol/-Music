@@ -19,10 +19,14 @@ memoria de la anterior.
 
 **Las dos reglas que salen del perfil y que es fácil violar:**
 
-1. **Nunca recomendar temas sueltos.** 53 de sus 61 sets pasan la hora y la
-   mediana es 96 minutos. La unidad es el set, el mix o el álbum continuo.
-2. **Seguir series, no solo artistas.** Cercle solo es el 28% de su playlist. Un
-   set nuevo de la serie le interesa aunque el artista le sea desconocido.
+1. **Toda recomendación declara su canal.** Escucha en dos modos con plataforma
+   propia: **temas sueltos en Spotify, sets en YouTube**, los dos con
+   frecuencia y con tendencia hacia YouTube. Un set se recomienda con link de
+   YouTube y completo, nunca un extracto. Un tema se recomienda en Spotify.
+   No hay formato "correcto": hay dos, y confundirlos es el error.
+2. **Seguir series, no solo artistas.** Cercle solo es el 28% de su playlist de
+   sets. Un set nuevo de la serie le interesa aunque el artista le sea
+   desconocido.
 
 **Nunca repetir algo que ya figure en [`docs/descubrimiento.md`](docs/descubrimiento.md).**
 
