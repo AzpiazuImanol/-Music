@@ -29,7 +29,12 @@ desde el 9-mar-2026. O sea que hoy aplica a todo.
 
 ## Qué se rompió, y qué significa acá
 
-**`GET /playlists/{id}/tracks` fue renombrado a `/items`.** El campo `tracks` del
+**`GET /playlists/{id}/tracks` fue renombrado a `/items`, y el contenido de
+cada item también cambió de nombre.** Esto último no está en el changelog y
+costó un bug: dentro de cada item, el objeto del tema **ya no está en `track`
+sino en `item`**, y `track` pasó a ser un booleano que indica si es tema o
+episodio. Un filtro tipo `if item.get("track")` no falla: devuelve cero temas en
+silencio, que es peor. El campo `tracks` del
 objeto playlist ahora se llama `items`, y **puede venir vacío para playlists que
 no son suyas**. `scripts/sync_spotify.py` ya está patcheado para las dos cosas.
 

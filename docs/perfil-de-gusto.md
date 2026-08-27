@@ -48,30 +48,40 @@ Un set nuevo de Cercle le interesa incluso de alguien que no conoce.
 42 playlists, 765 temas guardados, tres ventanas de top. Cuatro cosas que la
 playlist de YouTube no dejaba ver, y una de ellas obliga a filtrar los datos.
 
-### 1. Hay una dimensión rock que en YouTube no existe
+### 1. El rock es un archivo, no un modo de escucha
 
-Sus playlists propias más grandes no son electrónicas:
+**Corregido por él el 27-ago-2026:** "no lo tomes para nada como que me gusta
+más el rock que la electrónica. Sí me gusta, sí armé esas playlists, pero para
+tenerlas, no las escucho tan seguido".
 
-| Temas | Playlist |
+Tiene razón, y los datos de reproducción lo confirman con bastante fuerza.
+Cuántos de los 136 artistas de *ELI Rock* y *ELI Rock Nacional* aparecen en su
+top real de escuchas:
+
+| Ventana | Artistas de rock en el top |
 |---|---|
-| 293 | 𝐄𝐋𝐈 𝐓𝐞𝐜𝐡 |
-| 207 | 💙 LulèEli |
-| **194** | **ELI Rock 🎸** |
-| **181** | **ELI Rock Nacional** |
-| 76 | MANIJEANDING |
+| Últimas 4 semanas | **0 de 29** |
+| Últimos 6 meses | 11 de 50 |
+| Histórico | 13 de 50 |
 
-Rock y rock nacional argentino suman 375 temas, más que la playlist de tech.
-Aparecen La Vela Puerca, Peces Raros, Bastille, Eminem con playlist propia, y
-hasta una de reggae. El AC/DC de River que en el análisis de YouTube parecía una
-anomalía suelta **no era una anomalía**: era la punta de un modo entero.
+Y el dato que cierra el caso: **361 de los 375 temas de rock los agregó durante
+2024**, más 14 en 2023. Nada después. Fue un proyecto de archivo hecho de una
+sentada, no un hábito.
 
-**"ELI" es él**: sale de "El Ima". Así que las cuatro playlists con ese prefijo,
-incluidas las de rock con 375 temas entre las dos, son gusto suyo puro y se
-pueden usar sin descuento.
+Así que el rock existe en su historia (Soda Stereo, Cerati, La Vela Puerca,
+Miranda!, Coldplay, Red Hot Chili Peppers) pero está en **cero en el presente**.
+La electrónica es el modo dominante, sin discusión.
 
-**La excepción es 💙 LulèEli, de 207 temas, que comparte con su novia.** Esa sí
-es de a dos, así que un tema de ahí no prueba que le guste a él. Usarla como
-señal débil, o directamente excluirla cuando se busque su gusto individual.
+### El error de método que esto expone
+
+La versión anterior de este archivo decía que el rock "pesaba más que la
+playlist de tech" porque tenía más temas. **Medir el gusto por el tamaño de la
+playlist está mal:** el tamaño mide cuánto esfuerzo puso en curar, no cuánto
+escucha. Son dos cosas distintas y acá apuntan en direcciones opuestas.
+
+**Para peso de gusto, usar siempre `top_artists_*` y `top_tracks_*`, que son
+reproducciones reales.** Las playlists sirven para entender cómo organiza y
+qué contextos tiene, no para rankear.
 
 ### 2. Los temas guardados son una cápsula del tiempo, no gusto actual
 

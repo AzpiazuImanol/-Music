@@ -159,15 +159,19 @@ def main() -> int:
                 "propia": propia,
                 "descripcion": p.get("description"),
                 "total": conteo,
+                # Desde feb-2026 el objeto viene en "item", no en "track";
+                # el campo "track" ahora es un booleano adentro de "item".
                 "tracks": [
                     {
-                        "titulo": (t.get("track") or {}).get("name"),
-                        "artistas": [a["name"] for a in (t.get("track") or {}).get("artists", [])],
-                        "album": ((t.get("track") or {}).get("album") or {}).get("name"),
+                        "titulo": t.get("item", t.get("track", {})).get("name"),
+                        "artistas": [a["name"] for a in t.get("item", t.get("track", {})).get("artists", [])],
+                        "album": (t.get("item", t.get("track", {})).get("album") or {}).get("name"),
                         "agregado": t.get("added_at"),
+                        "agregado_por": (t.get("added_by") or {}).get("id"),
                     }
                     for t in temas
-                    if t.get("track")
+                    if (t.get("item") or t.get("track")) and isinstance(t.get("item") or t.get("track"), dict)
+                    and (t.get("item") or t.get("track")).get("type") == "track"
                 ],
             }
         )
