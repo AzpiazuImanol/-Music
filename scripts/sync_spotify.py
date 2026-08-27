@@ -20,6 +20,7 @@ import json
 import pathlib
 import secrets
 import threading
+import urllib.error
 import urllib.parse
 import urllib.request
 import webbrowser
@@ -134,14 +135,24 @@ def main() -> int:
     playlists = paged("/me/playlists", token)
     detalle = []
     for p in playlists:
-        tracks = paged(f"/playlists/{p['id']}/tracks", token, limit=100)
+        # Desde feb-2026 el endpoint es /items, no /tracks, y el campo del
+        # objeto playlist tambien pasa de "tracks" a "items". Toleramos los dos
+        # por si Spotify revierte algo.
+        conteo = (p.get("items") or p.get("tracks") or {}).get("total", 0)
+        propia = p["owner"]["id"] == me["id"]
+        try:
+            temas = paged(f"/playlists/{p['id']}/items", token, limit=100)
+        except urllib.error.HTTPError as e:
+            # "items may be undefined for playlists you don't own"
+            print(f"  {p['name']}: sin acceso al contenido ({e.code})")
+            temas = []
         detalle.append(
             {
                 "nombre": p["name"],
                 "id": p["id"],
-                "propia": p["owner"]["id"] == me["id"],
+                "propia": propia,
                 "descripcion": p.get("description"),
-                "total": p["tracks"]["total"],
+                "total": conteo,
                 "tracks": [
                     {
                         "titulo": (t.get("track") or {}).get("name"),
@@ -149,12 +160,12 @@ def main() -> int:
                         "album": ((t.get("track") or {}).get("album") or {}).get("name"),
                         "agregado": t.get("added_at"),
                     }
-                    for t in tracks
+                    for t in temas
                     if t.get("track")
                 ],
             }
         )
-        print(f"  {p['name']}: {p['tracks']['total']}")
+        print(f"  {p['name']}: {len(temas)}/{conteo}{'' if propia else '  (seguida, no propia)'}")
     (OUT / "playlists.json").write_text(json.dumps(detalle, ensure_ascii=False, indent=2), encoding="utf-8")
 
     for rango in ("short_term", "medium_term", "long_term"):

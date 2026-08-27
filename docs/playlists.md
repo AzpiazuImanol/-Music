@@ -20,7 +20,10 @@ Nada armado todavía. Para las de Spotify hace falta correr
 `scripts/sync_spotify.py` primero, para no armar algo que ya tiene.
 
 Nota técnica: el script actual es **solo lectura**. Crear playlists en su cuenta
-requiere el scope `playlist-modify-private`, que hoy no pide a propósito.
+sigue siendo posible después de los recortes de febrero de 2026, pero cambió de
+endpoint (`POST /me/playlists`, ya no `/users/{id}/playlists`) y requiere el
+scope `playlist-modify-private`, que hoy no pide a propósito. Ver
+[api-spotify.md](api-spotify.md).
 
 ## Armadas
 

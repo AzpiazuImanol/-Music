@@ -19,8 +19,16 @@ suele quedar afuera de los radares normales:
 | Fuente | Qué avisa | Cómo se consulta | Andando |
 |---|---|---|---|
 | YouTube (canales) | Sets nuevos de las series | `yt-dlp` sobre cada canal, comparando contra `data/youtube-sets.json` | no |
-| Spotify (artistas) | Releases nuevos del núcleo | `/artists/{id}/albums` de la Web API | no, falta la app |
+| Spotify (artistas) | Releases nuevos del núcleo | `/artists/{id}/albums`, artista por artista | no, falta la app |
 | Beatport / Bandcamp | Lanzamientos de sello | por definir | no |
+
+## Ojo con esto
+
+**`GET /browse/new-releases` de Spotify fue eliminado en febrero de 2026, sin
+reemplazo.** No hay feed global de novedades. La única vía es recorrer
+`/artists/{id}/albums` artista por artista y comparar contra el estado anterior,
+lo cual para su caso alcanza porque quiere sus artistas, no todos. Detalle en
+[api-spotify.md](api-spotify.md).
 
 ## Cómo se convierte en aviso real
 

@@ -44,7 +44,10 @@ Necesita `yt-dlp`. No baja audio, solo metadatos. Escribe
 No existe conector de Spotify para Claude, así que la vía es la API oficial.
 Una sola vez:
 
-1. Crear una app en <https://developer.spotify.com/dashboard>.
+0. **Hace falta Spotify Premium.** Desde febrero de 2026 el Development Mode lo
+   exige. Ver [docs/api-spotify.md](docs/api-spotify.md).
+1. Crear una app en <https://developer.spotify.com/dashboard> con el botón
+   *Create app* (está en el Dashboard, no en la home de developer.spotify.com).
 2. En *Redirect URIs* poner exactamente `http://127.0.0.1:8888/callback`.
 3. Copiar `scripts/.env.example` a `scripts/.env` y pegar Client ID y Secret.
 
