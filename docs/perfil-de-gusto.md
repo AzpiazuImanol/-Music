@@ -119,6 +119,52 @@ Se corresponde con playlists suyas como *Sleepy house music*, *Alpha Waves*,
 reproducción con la atención en otra parte. **Filtrar ese cluster antes de sacar
 conclusiones o recomendar.** No es gusto, es utilidad.
 
+## La referencia viva: ELI TECH (corregido el 21-sep-2026)
+
+Él lo dijo y los datos lo confirman: **ELI TECH es la única playlist propia que
+sigue creciendo.** Todas las demás dejaron de recibir temas en 2024. A esta le
+agregó 115 en 2023, 58 en 2024, 66 en 2025 y 26 en lo que va de 2026. Es el
+único archivo que refleja su gusto de hoy, no el de hace dos años.
+
+Sus 293 temas, por presencia: RÜFÜS DU SOL 26, Jan Blomqvist 14, Anyma 13,
+ARTBAT 12, CamelPhat 12, Monolink 9, Argy 9, Massano 8, Solomun 6, Adriatique 5,
+Korolova 4, Fred again.. 4, Keinemusik y Adam Port 4.
+
+**Dos correcciones a versiones anteriores de este archivo:**
+
+- **Menos Anjunadeep.** Las versiones previas lo trataban como sello de cabecera.
+  En ELI TECH no hay ningún artista de Anjunadeep entre los quince más presentes.
+  Ben Böhmer aparece, pero por Cercle, no por el sello.
+- **Sets artísticos de artistas, no series.** Lo que consume son performances
+  largas y cinematográficas de un artista, con arco narrativo, en lugares
+  espectaculares. Cercle es el ejemplo dominante, pero nombrar "Cercle, Boiler
+  Room y Mayan Warrior" como si fueran marcas que sigue describe mal la cosa:
+  Boiler Room son 2 sets y Mayan Warrior 3. Lo que le importa es el tipo de
+  set, la atmósfera y la construcción, no el sello de la serie.
+
+### El cruce YouTube vs Spotify, por nombre
+
+Hay artistas que admira en sets de YouTube pero casi no escucha en Spotify, y
+al revés. Importa cuando hay que elegir "los que más escucha":
+
+| Artista | En su top de Spotify | Sets en YouTube |
+|---|---|---|
+| RÜFÜS DU SOL | #1 a 6 meses, #2 histórico | 3 |
+| NTO | #2 a 6 meses, #12 últimas 4 semanas | 1 |
+| Fred again.. | #3 últimas 4 semanas, #5 histórico | 3 |
+| CamelPhat | #11 en ambas | 0 |
+| Anyma | #14 histórico | 2 |
+| Ben Böhmer | #21 histórico | 2 |
+| Adriatique | #34 histórico | 3 |
+| ARTBAT | #40 histórico | 2 |
+| WhoMadeWho | no aparece | 2 |
+| Sébastien Léger | no aparece | 1 |
+| Mochakk | no aparece | 2 |
+
+WhoMadeWho, Léger y Mochakk son artistas de set filmado, no de escucha diaria.
+Si el contexto pide "a quién vuelvo más", los que tienen respaldo en ambos
+lados son RÜFÜS DU SOL, NTO, Fred again.., Anyma y Ben Böhmer.
+
 ## Los cuatro modos
 
 **1. Casa y fondo.** House suave, jazzy, soulful, disco. Flavour Trip es 9 sets
