@@ -165,6 +165,24 @@ WhoMadeWho, Léger y Mochakk son artistas de set filmado, no de escucha diaria.
 Si el contexto pide "a quién vuelvo más", los que tienen respaldo en ambos
 lados son RÜFÜS DU SOL, NTO, Fred again.., Anyma y Ben Böhmer.
 
+## Veta nueva: lo selvático y tribal (16-nov-2026)
+
+Dicho por él a partir de [Bedouin en Petra para Cercle](https://youtu.be/xQCLf9T_M7Q):
+le encanta cuando el set "suena como que estás en la jungla", **oscuro pero
+melódico**, y lo quiere para el gimnasio. Pidió "así, pero más aún".
+
+Eso tiene dos familias con nombre, y conviene no mezclarlas porque difieren en
+tempo:
+
+- **Organic house y downtempo tribal** (Bedouin, Nicola Cruz, Sabo y Goldcap,
+  Viken Arman, Damian Lazarus): es donde están los sonidos de selva literales,
+  pero va lento, entre 100 y 120 bpm.
+- **Afro tech** (Enoo Napa, Da Capo, Caiiro, Shimza): percusión tribal, oscuro,
+  y a ritmo de entrenamiento. Es la respuesta para gimnasio.
+
+Pendiente de veredicto: las cinco recomendaciones del 16-nov en
+[descubrimiento.md](descubrimiento.md).
+
 ## Los cuatro modos
 
 **1. Casa y fondo.** House suave, jazzy, soulful, disco. Flavour Trip es 9 sets
